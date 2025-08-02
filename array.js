@@ -18,3 +18,11 @@ for (let letter of word) {
   }
 }
 console.log(count); // should print 3
+const string = 'AbraCAdabrA';
+let i=0;
+for(letter of string){
+    if(letter==='a'|| letter==='A'){
+      i++;
+    }
+}
+console.log(i)
