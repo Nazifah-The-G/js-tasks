@@ -1,5 +1,4 @@
-let myObject = {
-
+let myObject ={
 name: 'John Doe',
 age: 25,
 city: 'Example City',
@@ -10,3 +9,12 @@ for(const prop in myObject){
     const type = typeof myObject.prop;
     console.log('key:',key,'|','type:',type);
 }
+let word = "banana";
+let count = 0;
+
+for (let letter of word) {
+  if (letter === "a") {
+    count++;
+  }
+}
+console.log(count); // should print 3
