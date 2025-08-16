@@ -1,7 +1,7 @@
 function totalFine( fare ) {
           // You have to write your code here
-          if(typeof fare!=='number' || fare<0){
-            return 'Invalid'
+          if(typeof fare!=='number' || fare<=0){
+            return 'Invalid';
           }
             let fine = fare + fare*20/100 + 30 ;
           return fine;
@@ -81,7 +81,7 @@ function  resultReport( marks ) {
         }
         return { finalScore: avgNumber, pass: pass, fail: fail };
 }
-      
+      console.log(isSame([1,2,3],[1,2,5]))
 
 
 
